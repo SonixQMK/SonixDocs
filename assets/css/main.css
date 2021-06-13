@@ -184,3 +184,39 @@ tr {
 td, th {
 	padding: .5rem 1rem;
 }
+
+/* Cards */
+.board-grid > ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	justify-items: center;
+	list-style: none;
+	padding-left: 0;
+}
+
+.board-grid > ul > li > a > figure {
+	border-radius: 15px;
+	background-color: #f7f2ee;
+}
+
+.board-grid > ul > li > a > figure > img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.board-grid > ul > li > a > figure > figcaption {
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+
+figcaption:link { text-decoration: none; }
+
+figcaption:visited { text-decoration: none; }
+
+figcaption:hover { text-decoration: none; }
+
+figcaption:active { text-decoration: none; }
