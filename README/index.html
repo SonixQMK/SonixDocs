@@ -1,6 +1,10 @@
 <h1><a href="https://sonix-docs.github.io/">Sonix Docs</a></h1>
 <p>Documentation for flashing QMK on sonix keyboards</p>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<h2>Development:</h2>
+<p>We use eleventy to reduce the usage of boilerplate code. Since eleventy is built ontop of nodejs you will need to install that on your platform. Run <code>npm install</code> in the cloned directory to install eleventy. Once eleventy is installed, you can run <code>eleventy --serve</code> and it will run a web server which will live update when you edit a file.</p>
+<h2>Adding boards:</h2>
+<p>If you have a board already ported to SonixQMK, make a new directory with the manufacturers name if there is not one already (ex: womier, redragon). In that folder make another one with the model number (ex: k66, k552), you can just copy another boards docs and edit it from there. We require documentation for Windows, Mac and Linux. They are all pretty similar though.</p>
 <h2>Thank you to:</h2>
 <ul>
 <li>LegendEffects for rewriting the website to look much better from the source to the browser</li>
