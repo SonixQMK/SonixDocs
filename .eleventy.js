@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
 		passthroughFileCopy: true,
 		dir: {
 			output: "dist"
-		}
+		},
+		pathPrefix: "/sonixdocs",
 	}
 }
