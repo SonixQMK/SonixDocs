@@ -1,5 +1,5 @@
 {
-	"name": "sonixqmk.github.io",
+	"name": "SonixDocs",
 	"version": "1.0.0",
 	"description": "Documentation for boards powered by Sonix",
 	"main": ".eleventy.js",
@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/SonixQMK/sonixqmk.github.io.git"
+		"url": "git+https://github.com/SonixQMK/SonixDocs.git"
 	},
 	"author": "SonixQMK",
 	"license": "CC-BY-NC-SA-4.0",
 	"bugs": {
-		"url": "https://github.com/SonixQMK/sonixqmk.github.io/issues"
+		"url": "https://github.com/SonixQMK/SonixDocs/issues"
 	},
-	"homepage": "https://github.com/SonixQMK/sonixqmk.github.io#readme",
+	"homepage": "https://github.com/SonixQMK/SonixDocs#readme",
 	"dependencies": {
 		"@11ty/eleventy": "^0.12.1"
 	}
