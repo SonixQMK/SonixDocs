@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/SonixQMK/SonixDocs#readme",
 	"dependencies": {
-		"@11ty/eleventy": "^0.12.1"
+		"@11ty/eleventy": "^0.12.1",
+		"eleventy": "^1.0.6"
 	}
 }
