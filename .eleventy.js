@@ -5,6 +5,6 @@ module.exports = function(eleventyConfig) {
 		dir: {
 			output: "dist"
 		},
-		pathPrefix: "/sonixdocs",
+		pathPrefix: "/SonixDocs",
 	}
 }
