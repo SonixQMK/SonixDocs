@@ -1,0 +1,41 @@
+manufacturer: Keychron
+kb:
+  - Brand: Keychron
+    Model: C1
+    Variant(s): Plain, RGB, White
+
+  - Brand: Keychron
+    Model: C2
+    Variant(s): RGB, White
+
+  - Brand: Keychron
+    Model: K2
+    Variant(s): RGB
+
+  - Brand: Keychron
+    Model: K3
+    Variant(s): RGB
+
+  - Brand: Keychron
+    Model: K4
+    Variant(s): RGB
+
+  - Brand: Keychron
+    Model: K6
+    Variant(s): RGB, White
+
+  - Brand: Keychron
+    Model: K7
+    Variant(s): RGB
+
+  - Brand: Keychron
+    Model: K8
+    Variant(s): RGB
+
+  - Brand: Keychron
+    Model: K12
+    Variant(s): RGB
+  
+  - Brand: Keychron
+    Model: K14
+    Variant(s): RGB

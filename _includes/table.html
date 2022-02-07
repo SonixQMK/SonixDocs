@@ -1,0 +1,15 @@
+<table>
+{% for row in include.data %}
+{% if forloop.first %}
+<tr>
+{% for pair in row %}
+<th align="left">{{ pair[0] }}</th>
+{% endfor %}
+</tr>
+{% endif %}
+
+{% tablerow pair in row %}
+{{ pair[1] }}
+{% endtablerow %}
+{% endfor %}
+</table>
