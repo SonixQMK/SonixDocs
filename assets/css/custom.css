@@ -1,0 +1,12 @@
+h4{
+  font-weight: 600!important;
+  font-size: 13px!important;
+}
+
+hr{
+  height: 1px;
+  padding: 0;
+  margin: 1.5rem 0;
+  background-color: #eeebee;
+  border: 0;
+}

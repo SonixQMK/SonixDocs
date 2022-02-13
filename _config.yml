@@ -3,9 +3,8 @@ description: >-
   The Sonix QMK community has ported many Sonix MCU boards 
   from the like of womier, redragon and keychron to the open 
   source keyboard firmware QMK.
-baseurl: "/SonixQMKDocs"
-url: "https://jpe230.github.io"
-markdown: "GFM"
+baseurl: "/SonixDocs"
+url: "https://sonixqmk.github.io/"
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
@@ -19,3 +18,9 @@ aux_links:
     - "//github.com/SonixQMK/qmk_firmware"
   "Discord Server":
     - "//discord.gg/8XqzfBknfC"
+
+kramdown:
+  input: Kramdown
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false

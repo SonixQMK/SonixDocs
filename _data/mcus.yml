@@ -1,77 +1,90 @@
 - Company: eVision
   MCU: VS11K09A
   Rebrand company: SONIX
+  Rebrand MCU: SN32F248
   Type: ARM Cortex-M0
   Pin: LQFP 64 Pins
 
 - Company: eVision
   MCU: VS11K09A-1
   Rebrand company: SONIX
+  Rebrand MCU: SN32F248B
   Type: ARM Cortex-M0
   Pin: LQFP 64 Pins
 
 - Company: eVision
   MCU: VS11K13A
   Rebrand company: SONIX
+  Rebrand MCU: SN32F268
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
 
 - Company: eVision
   MCU: VS11K15A
   Rebrand company: SONIX
+  Rebrand MCU: SN32F268
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
 
 - Company: eVision
   MCU: VS11K16A
   Rebrand company: SONIX
+  Rebrand MCU: SN32F268
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
 
 - Company: eVision
   MCU: VS11K17A
   Rebrand company: SONIX
+  Rebrand MCU: SN32F268
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
 
 - Company: eVision
   MCU: VS11K20A
   Rebrand company: SONIX
+  Rebrand MCU: SN32F268
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
 
 - Company: HFD
   MCU: HFD2201KBA
   Rebrand company: SONIX
+  Rebrand MCU: SN32F248B
   Type: ARM Cortex-M0
   Pin: LQFP 64 Pins
 
 - Company: HFD
   MCU: HFD48KP500
   Rebrand company: SONIX
+  Rebrand MCU: SN32F268
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
 
 - Company: HFD
   MCU: HFD64KG800
   Rebrand company: SONIX
+  Rebrand MCU: SN32F248B
   Type: ARM Cortex-M0
   Pin: LQFP 64 Pins
 
 - Company: SONIX
   MCU: SN32F248
   Rebrand company: "No"
+  Rebrand MCU: "No"
   Type: ARM Cortex-M0
   Pin: LQFP 64 Pins
 
 - Company: SONIX
   MCU: SN32F248B
   Rebrand company: "No"
+  Rebrand MCU: "No"
   Type: ARM Cortex-M0
   Pin: LQFP 64 Pins
 
 - Company: SONIX
   MCU: SN32F268
   Rebrand company: "No"
+  Rebrand MCU: "No"
   Type: ARM Cortex-M0
   Pin: LQFP 48 Pins
