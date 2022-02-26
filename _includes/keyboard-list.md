@@ -1,5 +1,7 @@
-{% for vendor_hash in site.data.vendors %}
-  {% assign vendor = vendor_hash[1] %}
+{% for vendor_id in site.data.vendors["_index"] %}
+  {% assign vendor = site.data.vendors[vendor_id] %}
+
+---
 
 ## {{vendor.manufacturer}}
 

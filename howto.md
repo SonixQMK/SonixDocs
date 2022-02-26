@@ -140,16 +140,19 @@ The BOOT pin is located at pin 3 (see picture bellow), you will need to short th
 
 Grab a piece of wire and try to place one end on the BOOT pin and the other end on GND, and with a little help of someone, try to connect the board using its USB cable to your computer. 
 
-You know it is in BOOT mode if you board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off.
+You know it is in BOOT mode if your board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off.
 
 ---
 
 >**BOOT tip**
+>
 >On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in BOOT mode. For >example,  Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
+>
 ><Details markdown="block">
 ><summary>Keychron Testpads</summary>
 >![Test pads Keychron]({{site.baseurl}}/assets/images/boot_pin_keychron.jpg)
 ></Details>
+>
 >It is not always a given that these pads are accesible, be sure to ask us in our [discord server](https://discord.gg/8XqzfBknfC) if you have any doubts.
 
 </Details>

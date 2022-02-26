@@ -8,6 +8,8 @@ nav_order: 3
 
 # FAQs
 
+---
+
 - **If I flash this firmware, will I be able to revert to the original firmware later?**
 
 Yes you can, you can flash the stock firmware using Sonix-Flasher, but keep in mind that we only have a handful of stock firmwares in our [repo](https://github.com/SonixQMK/Mechanical-Keyboard-Database/tree/main/stockFWs).
@@ -26,7 +28,9 @@ There are currently efforts to enable bluetooth in a subset of boards but it is 
 
 - **Is VIA supported?**
 
-Short answer: yes. Long answer: Some keyboards doesn't have the necessary JSON file and/or VIA keymap, if they are not present you can help us activate VIA for it.
+Short answer: It depends but is compatible. 
+
+Long answer: Some keyboards doesn't have the necessary JSON file and/or VIA keymap, if they are not present you can help us activate VIA for it.
 
 - **Why is OpenRGB not working with my keyboard?**
 
