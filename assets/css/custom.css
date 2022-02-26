@@ -4,9 +4,27 @@ h4{
 }
 
 hr{
-  height: 1px;
+  height: 2px;
   padding: 0;
   margin: 1.5rem 0;
-  background-color: #eeebee;
+  background-color: #e6e6e6;
   border: 0;
+}
+
+img{
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.tips{
+  margin: 1.5rem 0;
+  background-color: #e2e2e2;
+  border: 1px 0;
+}
+
+blockquote{
+  margin: 0!important;
+  padding: 1rem;
+  background-color: #f8f8f8;
 }

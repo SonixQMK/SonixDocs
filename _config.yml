@@ -20,7 +20,6 @@ aux_links:
     - "//discord.gg/8XqzfBknfC"
 
 kramdown:
-  input: Kramdown
   syntax_highlighter_opts:
     block:
       line_numbers: false

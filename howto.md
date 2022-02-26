@@ -40,17 +40,23 @@ e.g: In the picture above the MCU is a **HFD2201KBA** but its Sonix counterpart 
   {% include table.html data=site.data.mcus %}
 </details>
 
-Continue to the next step if your MCU is compatible.
+**Continue to the next step only if your MCU is compatible.**
+
+---
 
 ## 2. Setup QMK Enviroment
 
 Before you can compile the firmware; you need to install the tools and the enviroment to build it. Manual compilation is preferred over using the pre-compiled firmwares since it will allow you to modify various aspect of it.
+
+---
 
 ### 2.1 Preparing build enviroment 
 
 Please follow [QMK instructions](https://docs.qmk.fm/#/newbs_getting_started?id=setting-up-your-qmk-environment){:target="_blank"} to setup the build enviroment.
 
 **Come back to this page before running `qmk setup`!!!**
+
+---
 
 ### 2.2 Setting up QMK Enviroment
 
@@ -61,6 +67,8 @@ qmk setup SonixQMK/qmk_firmware -b sn32_master
 ```
 
 In most situations you will want to answer y to all of the prompts.
+
+---
 
 ## 3. Compiling your keyboard firmware
 
@@ -94,12 +102,15 @@ Copying keychron_k2_rgb_iso_iso.bin to qmk_firmware folder                      
 ```
 
 ---
-**Compilation tip**
 
-To reduce the compilation time you can add the `-j <number of cores>` flag to the `qmk compile` command. e.g:
-```bash
-qmk compile -j 8 -kb redragon/k530 -km default
-```
+>**Compilation tip**
+>
+>To reduce the compilation time you can add the `-j <number of cores>` flag to the `qmk compile` command. e.g:
+>```bash
+>qmk compile -j 8 -kb redragon/k530 -km default
+>```
+
+
 ---
 
 ## 4. Flashing the Firmware
@@ -110,11 +121,16 @@ The Sonix Flasher is a community driven flasher for the SN32F248(B) and SN32F268
 
 For now, you will need to download the [Sonix Flasher](https://github.com/SonixQMK/sonix-flasher/) from [here](https://github.com/SonixQMK/sonix-flasher/releases/latest)
 
+---
+
 ### 4.2 Entering BOOT mode
 
 The Sonix MCUs has the ability to enter a special mode called "BOOT" mode, in this mode, the flasher can upload the firmware to the MCU.
 
-#### 4.2.1 BOOT mode in SN32F248B boards.
+---
+
+<Details markdown="block">
+<summary><b> BOOT mode in SN32F248B Boards. Click to expand! </b></summary>
 
 The Sonix SN32F248B can be put in BOOT mode by shorting the "BOOT" pin to ground (GND) before powering the board.
 
@@ -127,17 +143,25 @@ Grab a piece of wire and try to place one end on the BOOT pin and the other end 
 You know it is in BOOT mode if you board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off.
 
 ---
-**BOOT tip**
 
->On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in BOOT mode. For example,  Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
->[Test pads Keychron]({{site.baseurl}}/assets/images/boot_pin_keychron.jpg)
+>**BOOT tip**
+>On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in BOOT mode. For >example,  Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
+><Details markdown="block">
+><summary>Keychron Testpads</summary>
+>![Test pads Keychron]({{site.baseurl}}/assets/images/boot_pin_keychron.jpg)
+></Details>
 >It is not always a given that these pads are accesible, be sure to ask us in our [discord server](https://discord.gg/8XqzfBknfC) if you have any doubts.
+
+</Details>
 
 ---
 
-#### 4.2.2 BOOT mode in SN32F268B boards.
+<Details markdown="block">
+<summary><b> BOOT mode in SN32F268B Boards. Click to expand! </b></summary>
+TODO...
+</Details>
 
-{TODO}
+---
 
 ### 4.3 Flashing the keyboard
 
@@ -145,7 +169,10 @@ Be sure to set your keyboard in BOOT mode and then open Sonix Flasher, your boar
 
 ![Sonix Flasher]({{site.baseurl}}/assets/images/sonix_flasher_device.jpg)
 
-#### 4.3.1 Flashing SN32F248B boards
+---
+
+<Details markdown="block">
+<summary><b> Flashing SN32F248B boards. Click to expand!  </b></summary>
 
 Confirm that:
 - The SN32F24x radio button is selected
@@ -161,5 +188,16 @@ Press the "Flash QMK..." button:
 Select the *.bin that you built previously (it will be located at "qmk_firmware/.build" ) and hit "Open". **The moment you press this button it will start to flash**
 
 ![Select fw]({{site.baseurl}}/assets/images/sonix_flasher_248b_file.jpg)
+
+</Details>
+
+---
+
+<Details markdown="block">
+<summary><b> Flashing SN32F268B boards. Click to expand! </b></summary>
+TODO...
+</Details>
+
+---
 
 **If everything went right, your keyboard will be flashed with QMK and ready to go!**
