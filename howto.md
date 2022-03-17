@@ -123,30 +123,38 @@ For now, you will need to download the [Sonix Flasher](https://github.com/SonixQ
 
 ---
 
-### 4.2 Entering BOOT mode
+### 4.2 Entering Bootloader mode
 
-The Sonix MCUs has the ability to enter a special mode called "BOOT" mode, in this mode, the flasher can upload the firmware to the MCU.
+The Sonix MCUs has the ability to enter a special mode called "bootloader" mode, in this mode, the flasher can upload the firmware to the MCU.
+
+To facilate the process of entering the "bootloader" mode, we segguest trying the option "Reboot to Bootloader" of the Sonix Flasher. Please select the appropiate option depending on your vendor.
+
+![Reboot to BL]({{site.baseurl}}/assets/images/reboot_2_bl.jpg)
+
+You know it is in Bootloader mode if your board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off. 
+
+Continue to [Flashing the keyboard](#43-flashing-the-keyboard) if you entered Bootloader mode, otherwise please proceed with the instructions below depending on your board:
 
 ---
 
 <Details markdown="block">
-<summary><b> BOOT mode in SN32F248B Boards. Click to expand! </b></summary>
+<summary><b> Bootloader mode in SN32F248B Boards. Click to expand! </b></summary>
 
-The Sonix SN32F248B can be put in BOOT mode by shorting the "BOOT" pin to ground (GND) before powering the board.
+The Sonix SN32F248B can be put in Bootloader mode by shorting the "BOOT" pin to ground (GND) before powering the board.
 
 The BOOT pin is located at pin 3 (see picture bellow), you will need to short this pin with GND, for example the USB connector housing.
 
-![Boot pin 248b]({{site.baseurl}}/assets/images/boot_pin248b.jpg)
+![BOOT pin 248b]({{site.baseurl}}/assets/images/boot_pin248b.jpg)
 
 Grab a piece of wire and try to place one end on the BOOT pin and the other end on GND, and with a little help of someone, try to connect the board using its USB cable to your computer. 
 
-You know it is in BOOT mode if your board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off.
+You know it is in Bootloader mode if your board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off.
 
 ---
 
->**BOOT tip**
+>**Bootloader tip**
 >
->On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in BOOT mode. For >example,  Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
+>On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in Bootloader mode. For >example,  Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
 >
 ><Details markdown="block">
 ><summary>Keychron Testpads</summary>
@@ -160,15 +168,25 @@ You know it is in BOOT mode if your board is connected to your PC and your board
 ---
 
 <Details markdown="block">
-<summary><b> BOOT mode in SN32F268B Boards. Click to expand! </b></summary>
-TODO...
+<summary><b> Bootloader mode in SN32F268B Boards. Click to expand! </b></summary>
+
+The Sonix SN32F268 can be put in Bootloader mode by shorting the "BOOT" pin to ground (GND) before powering the board.
+
+The BOOT pin is located at pin 25 (see picture bellow), you will need to short this pin with GND, for example the USB connector housing.
+
+![Bootloader pin 248b]({{site.baseurl}}/assets/images/boot_pin268.png)
+
+Grab a piece of wire and try to place one end on the BOOT pin and the other end on GND, and with a little help of someone, try to connect the board using its USB cable to your computer. 
+
+You know it is in Bootloader mode if your board is connected to your PC and your board doesn't respond to keypress and the RGB/backlight is off.
+
 </Details>
 
 ---
 
 ### 4.3 Flashing the keyboard
 
-Be sure to set your keyboard in BOOT mode and then open Sonix Flasher, your board should be detected and it should display the MCU name followed by "bootloader":
+Be sure to set your keyboard in Bootloader mode and then open Sonix Flasher, your board should be detected and it should display the MCU name followed by "bootloader":
 
 ![Sonix Flasher]({{site.baseurl}}/assets/images/sonix_flasher_device.jpg)
 
@@ -199,6 +217,8 @@ Select the *.bin that you built previously (it will be located at "qmk_firmware/
 <Details markdown="block">
 <summary><b> Flashing SN32F268B boards. Click to expand! </b></summary>
 TODO...
+
+In the meantime, follow CalcProgrammer1's [video guide](https://www.youtube.com/watch?v=aUiKHdI5Vk8)
 </Details>
 
 ---
