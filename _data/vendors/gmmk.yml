@@ -1,0 +1,13 @@
+manufacturer: GMMK
+kb:
+  - Brand: GMMK
+    Model: Full-Size
+    Revision(s): Rev2, Rev3
+
+  - Brand: GMMK
+    Model: TKL
+    Revision(s): Rev2, Rev3
+
+  - Brand: GMMK
+    Model: Compact
+    Revision(s): Rev2, Rev3
