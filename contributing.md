@@ -18,6 +18,5 @@ Bellow is our set of goals that we are currently trying to get done, feel free t
 
 - [ ] Bluetooth Support
 - [ ] RF Module Support
-- [ ] ADC drivers for HAL
 - [ ] Setup a QMK Configurator site
 - [ ] Enable QMK CLI to flash 240/260 board

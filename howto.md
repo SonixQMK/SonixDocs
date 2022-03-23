@@ -127,7 +127,7 @@ For now, you will need to download the [Sonix Flasher](https://github.com/SonixQ
 
 The Sonix MCUs has the ability to enter a special mode called "bootloader" mode, in this mode, the flasher can upload the firmware to the MCU.
 
-To facilate the process of entering the "bootloader" mode, we segguest trying the option "Reboot to Bootloader" of the Sonix Flasher. Please select the appropiate option depending on your vendor.
+To facilate the process of entering the "bootloader" mode, we suggest trying the option "Reboot to Bootloader" of the Sonix Flasher. Please select the appropiate option depending on your vendor.
 
 ![Reboot to BL]({{site.baseurl}}/assets/images/reboot_2_bl.jpg)
 
@@ -154,7 +154,7 @@ You know it is in Bootloader mode if your board is connected to your PC and your
 
 >**Bootloader tip**
 >
->On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in Bootloader mode. For >example,  Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
+>On certain boards, the manufacturer could place two test pads that are connected to BOOT and GND so it can be easier to put the board in Bootloader mode. For example, Keychron boards usually have these two pads bellow the spacebar so they can be shorted using a pair of tweezer.
 >
 ><Details markdown="block">
 ><summary>Keychron Testpads</summary>
