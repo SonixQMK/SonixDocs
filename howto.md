@@ -63,7 +63,7 @@ Please follow [QMK instructions](https://docs.qmk.fm/#/newbs_getting_started?id=
 After installing QMK run the following command:
 
 ```bash 
-qmk setup SonixQMK/qmk_firmware -b sn32_master
+qmk setup SonixQMK/qmk_firmware -b sn32_develop
 ```
 
 In most situations you will want to answer y to all of the prompts.
